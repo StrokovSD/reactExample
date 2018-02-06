@@ -1,0 +1,47 @@
+body{
+  margin: 0;
+}
+td{
+ padding: 4px;
+}
+p{
+  text-align: center;
+}
+th:hover{
+  background-color: blue;
+}
+table   {
+    border-collapse: collapse;
+}
+.test:hover{
+  background-color: rgba(255, 0, 0, 0.5);
+}
+.mainInfo {
+  width: 550px;
+  margin: auto;
+  background: white;
+}
+.popup {
+    width:100%;
+    min-height:100%;
+    background-color: #031a38bf;
+    overflow:hidden;
+    position:fixed;
+    top:0px;
+}
+.popup .additionalInfo  {
+      margin:90px auto 0px auto;
+      width:400px;
+      height: 300px;
+      padding:10px;
+      background-color: #009688;
+      border-radius:5px;
+      box-shadow: 0px 0px 15px #000;
+}
+.search{
+  width: 630px;
+  font-size: 20px;
+  border-radius: 5px;
+  margin:  15px auto 15px auto;
+  outline: none;
+}
